@@ -1,0 +1,74 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: RW;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .site-title{
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  @font-face {
+    font-family: RW;
+    src: url(Baskarstc-8M7R2.otf);
+  }
+h2, a, p{
+color: white;
+font-family: RW;
+font-size: 130%;
+}
+.entry-content{
+    background: rgba(0, 0, 0, 0.5);
+}
+.entry-title{
+    font-size: 300%;
+    font-family: RW;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+.site-info{
+    margin-top: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 120%;
+    font-family: RW;
+    color: white;
+}
+  body{
+    background-image: url(Screenshot.png);
+  }
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+    .site-sidebar {
+        width: 100%;
+        float: none;
+    }
+}
+img{
+    width: 20%;
+}
